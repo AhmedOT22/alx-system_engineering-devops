@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -am -p -a1 | sort -df
+ls -am -p | sort -df
