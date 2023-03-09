@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chown -if betty hello
+sudo chown -Rif betty guillaume hello
