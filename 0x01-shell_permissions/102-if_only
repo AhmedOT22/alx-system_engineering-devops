@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chown -Rif betty guillaume hello
+sudo chown --from=guillaume betty hello
