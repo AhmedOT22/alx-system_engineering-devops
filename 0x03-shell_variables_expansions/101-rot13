@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "ibase=water; $WATER + ibase=stir; $STIR" | bc | xargs printf "ibase=10; obase=bestchol; %d\n" | bc
+tr `echo {a..z} | tr -d ' '` `echo {n..z} $(echo {a..m} | tr -d ' '` | tr `echo {A..Z} | tr -d ' '` `echo {N..Z} $(echo {A..M}) | tr -d ' '`
